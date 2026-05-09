@@ -1,0 +1,31 @@
+{
+  "name": "booksapp-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:laptop": "cypress run --config-file cypress.laptop.config.js",
+    "cy:run:mobile": "cypress run --config-file cypress.mobile.config.js",
+    "cy:laptop:chrome:headless": "cypress run --config-file cypress.laptop.config.js --browser chrome",
+    "cy:laptop:edge:headed": "cypress run --headed --config-file cypress.laptop.config.js --browser edge",
+    "cy:mobile:chrome:headless": "cypress run --config-file cypress.mobile.config.js --browser chrome",
+    "cy:mobile:edge:headed": "cypress run --headed --config-file cypress.mobile.config.js --browser edge"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesterovamo0509-stack/booksApp-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nesterovamo0509-stack/booksApp-cypress/issues"
+  },
+  "homepage": "https://github.com/nesterovamo0509-stack/booksApp-cypress#readme",
+  "devDependencies": {
+    "cypress": "^15.14.2"
+  }
+}
